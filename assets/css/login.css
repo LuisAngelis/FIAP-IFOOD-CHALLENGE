@@ -6,7 +6,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* reset Anchor style */
 body a{
     text-decoration: none;
 }
@@ -15,19 +14,16 @@ body a{
 header {
     background-color: #ff0800;
     color: #fff;
-
-    /*changes to make space*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 2rem;
 }
-/* remove margin */
+
 .header-logo img{
     height: 50px;
 }
 
-/* contact style */
 .header-contact{
     color: aliceblue;
     border-bottom: 5px solid transparent;

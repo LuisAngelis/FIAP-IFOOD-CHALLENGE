@@ -5,22 +5,38 @@ body {
     background-color: #f4f4f4;
 }
 
+body a{
+    text-decoration: none;
+}
+
 header {
     background-color: #ff0800;
     color: #fff;
-    padding: 5px ;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
 }
+
+.header-logo img{
+    height: 50px;
+}
+
+.header-contact{
+    color: aliceblue;
+    border-bottom: 5px solid transparent;
+    transition: 300ms;
+    
+}
+.header-contact:hover{
+    border-bottom: 2px solid aliceblue;
+}
+
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.logo {
-    height: 50px;
-    margin-right: 1200px;
 }
 
 .register {
